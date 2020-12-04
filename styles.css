@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 html{
   background-color: MistyRose;
-  font-stretch: expanded;
 }
 input{
   background-color: MistyRose;
   font-size: 30px;
   font-family: "American Typewriter Light", serif;
-  text-emphasis-color: "GoldenRod";
-  font-stretch: expanded;
+  text-emphasis-color: "GoldenRod";;
 }
 body {
   background-color: MistyRose;
   font-family: "American Typewriter Light",serif;
   font-size: 30px;
-  font-stretch: expanded;
 }
 text{
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
   font-size: 30px;
-  font-stretch: expanded;
 }
 h1 {
   color: GoldenRod;
@@ -47,14 +43,12 @@ ol {
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
   font-size: 30px;
-  font-stretch: expanded;
   }
 ul {
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
   font-size: 30px;
-  font-stretch: expanded;
   }
 li {
   color: GoldenRod;
@@ -62,19 +56,16 @@ li {
   font-family: "American Typewriter Light", serif;
   border-color: MistyRose;
   font-size: 30px;
-  font-stretch: expanded;
   }
 p {
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-  font-stretch: expanded;}
+  font-size: 30px;}
 textarea {
   color: GoldenRod;
   font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-  font-stretch: expanded; }
+  font-size: 30px;}
 }
 
   @media screen and (max-width:600px) (
