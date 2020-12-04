@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+html{
+  background-color: MistyRose;
+}
+input{
+  background-color: MistyRose;
+  font-size: 30px;
+  font-family: "American Typewriter Light", serif;
+  color: "GoldenRod";
+}
+body {
+  background-color: MistyRose;
+  font-family: "American Typewriter Light",serif;
+  font-size: 30px;
+}
+text{
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;
+}
+h1 {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 50px;
+  line-height: 10px;
+  }
+h2 {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;
+}
+h3 {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;
+  }
+ol {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;
+  }
+ul {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;
+  }
+li {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  border-color: MistyRose;
+  font-size: 30px;
+  }
+p {
+  color: GoldenRod;
+  background-color: MistyRose;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;}
+textarea {
+  color: GoldenRod;
+  font-family: "American Typewriter Light", serif;
+  font-size: 30px;}
+}
+
+  @media screen and (max-width:600px) (
+    .column (
+      width:100%
+      )
+    )
