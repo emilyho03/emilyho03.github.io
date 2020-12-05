@@ -1,4 +1,4 @@
-$("control-wrapper").click(function(
+
   (function (exports) {
     function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
@@ -23,7 +23,7 @@ $("control-wrapper").click(function(
         });
         return nodeList;
     }
-
+$("control-wrapper").click(function(
     function screenshotPage() {
         urlsToAbsolute(document.images);
         urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));
