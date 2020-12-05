@@ -4,20 +4,22 @@ html{
 }
 input{
   background-color: MistyRose;
-  font-size: 30px;
+  font-size: 5vw;
   font-family: "American Typewriter Light", serif;
-  text-emphasis-color: "GoldenRod";;
+  text-emphasis-color: GoldenRod;
+  color: GoldenRod
 }
 body {
   background-color: MistyRose;
   font-family: "American Typewriter Light",serif;
-  font-size: 30px;
+  font-size: 5vw;
+  color: GoldenRod
 }
 text{
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
-  font-size: 30px;
+  font-size: 5vw;
 }
 h1 {
   color: GoldenRod;
@@ -55,17 +57,17 @@ li {
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
   border-color: MistyRose;
-  font-size: 30px;
+  font-size: 5vw
   }
 p {
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
-  font-size: 30px;}
+  font-size: 5vw;}
 textarea {
   color: GoldenRod;
   font-family: "American Typewriter Light", serif;
-  font-size: 30px;}
+  font-size: 5vw;}
 }
 
   @media screen and (max-width:600px) (
