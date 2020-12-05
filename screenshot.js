@@ -1,6 +1,5 @@
-
-  (function (exports) {
-    function urlsToAbsolute(nodeList) {
+$("control-wrapper").click(function (exports)
+  {function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
             return [];
         }
@@ -23,7 +22,8 @@
         });
         return nodeList;
     }
-$("control-wrapper").click(function screenshotPage() {
+
+      (function screenshotPage() {
         urlsToAbsolute(document.images);
         urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));
         var screenshot = document.documentElement.cloneNode(true);
@@ -63,5 +63,5 @@ $("control-wrapper").click(function screenshotPage() {
     }
     exports.screenshotPage = screenshotPage;
     exports.generate = generate;
-})(window);
+)(window);
 return false; });
