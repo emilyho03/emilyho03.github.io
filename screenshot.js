@@ -23,8 +23,7 @@
         });
         return nodeList;
     }
-$("control-wrapper").click(function(
-    function screenshotPage() {
+$("control-wrapper").click(function screenshotPage() {
         urlsToAbsolute(document.images);
         urlsToAbsolute(document.querySelectorAll("link[rel='stylesheet']"));
         var screenshot = document.documentElement.cloneNode(true);
