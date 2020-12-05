@@ -4,7 +4,7 @@ html{
 }
 input{
   background-color: MistyRose;
-  font-size: 5vw;
+  font-size: 10px;
   font-family: "American Typewriter Light", serif;
   text-emphasis-color: GoldenRod;
   color: GoldenRod
@@ -12,14 +12,14 @@ input{
 body {
   background-color: MistyRose;
   font-family: "American Typewriter Light",serif;
-  font-size: 5vw;
+  font-size: 10px;
   color: GoldenRod
 }
 text{
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
-  font-size: 5vw;
+  font-size: 10px;
 }
 h1 {
   color: GoldenRod;
@@ -57,17 +57,17 @@ li {
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
   border-color: MistyRose;
-  font-size: 5vw
+  font-size: 30px
   }
 p {
   color: GoldenRod;
   background-color: MistyRose;
   font-family: "American Typewriter Light", serif;
-  font-size: 5vw;}
+  font-size: 20px;}
 textarea {
   color: GoldenRod;
   font-family: "American Typewriter Light", serif;
-  font-size: 5vw;}
+  font-size: 20px;}
 }
 
   @media screen and (max-width:600px) (
