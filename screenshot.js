@@ -1,4 +1,7 @@
-$("control-wrapper").click(function (exports)
+<script>
+$(document).ready(function(){
+  $("control-wrapper").click(function() {
+  $(this). function(exports)
   {function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
             return [];
@@ -64,4 +67,5 @@ $("control-wrapper").click(function (exports)
     exports.screenshotPage = screenshotPage;
     exports.generate = generate;
 )(window);
- });
+</script>
+});
