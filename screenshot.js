@@ -1,3 +1,4 @@
+$('#myLink').click(function(){
 (function (exports) {
     function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
@@ -64,3 +65,4 @@
     exports.screenshotPage = screenshotPage;
     exports.generate = generate;
 })(window);
+return false; });
