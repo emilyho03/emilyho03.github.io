@@ -64,4 +64,4 @@ $("control-wrapper").click(function (exports)
     exports.screenshotPage = screenshotPage;
     exports.generate = generate;
 )(window);
-return false; });
+ });
