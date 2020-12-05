@@ -1,4 +1,4 @@
-$('#myLink').click(function(){
+$(save-button).click(function(){
 (function (exports) {
     function urlsToAbsolute(nodeList) {
         if (!nodeList.length) {
