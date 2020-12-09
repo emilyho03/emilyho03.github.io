@@ -1,4 +1,7 @@
 #screenshot function
+from kivy.app import app
+kivy.require("3.6.5")
+from kivy.uix.label import Label
 import PyAutoGUI
     im1 = pyautogui.screenshot()
     im1.save('my_screenshot.png')
