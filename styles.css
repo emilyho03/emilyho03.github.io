@@ -1,79 +1,50 @@
-<!DOCTYPE html>
-html{
-  background-color: MistyRose;
-}
-input{
-  background-color: MistyRose;
-  font-size: 30px;
-  font-family: "American Typewriter Light", serif;
-  text-emphasis-color: GoldenRod;
-  color: GoldenRod
-}
-body {
-  background-color: MistyRose;
-  font-family: "American Typewriter Light",serif;
-  font-size: 30px;
-  color: GoldenRod
-}
-text{
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-}
-h1 {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 50px;
-  line-height: 10px;
-  }
-h2 {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-}
-h3 {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-  }
-ol {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-  }
-ul {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;
-  }
-li {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  border-color: MistyRose;
-  font-size: 30px
-  }
-p {
-  color: GoldenRod;
-  background-color: MistyRose;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;}
-textarea {
-  color: GoldenRod;
-  font-family: "American Typewriter Light", serif;
-  font-size: 30px;}
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #E8C9EB;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-  @media screen and (max-width:600px) (
-    .column (
-      width:100%
-      )
-    )
-{
-      box-sizing: border-box;  }
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #E8C9EB;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  background-color: #DAA9A1
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}

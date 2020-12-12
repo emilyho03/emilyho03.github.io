@@ -1,3 +1,2 @@
-# emilyho03.github.io
-https://stackoverflow.com/questions/1070760/javascript-function-in-href-vs-onclick top line of screenshot.js
-screenshot function: https://pypi.org/project/PyAutoGUI/#description
+https://www.w3schools.com/howto/howto_css_sidebar_responsive.asp
+https://htmlcolorcodes.com/
