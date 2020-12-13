@@ -20,3 +20,4 @@ if((isset($_POST['your_name'])&& $_POST['your_name'] !='') && (isset($_POST['you
   {
     echo "Please fill Name and Email";
   }
+?>
