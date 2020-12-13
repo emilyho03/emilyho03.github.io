@@ -16,5 +16,3 @@ function openPage(pageName, elmnt, color) {
 }
 
 document.getElementById("defaultOpen").click();
-
-<script type="text/javascript" src="https://form.jotform.com/jsform/203474163097053"></script>
