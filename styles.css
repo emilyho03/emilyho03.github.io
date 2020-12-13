@@ -28,16 +28,8 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
-input{
-  color: "black"
-}
-form{
-  color: "black"
-  border: "black"
-  center: middle
-}
 
 #Home {background-color: "GoldenRod";}
 #News {background-color: "GoldenRod";}
-#Contact {background-color: "GoldenRod";}
+
 #About {background-color: "GoldenRod";}
