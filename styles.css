@@ -30,6 +30,11 @@ body, html {
 input{
   color: "black"
 }
+form{
+  color: "black"
+  border: "black"
+  center: middle
+}
 #Home {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
