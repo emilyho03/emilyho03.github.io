@@ -9,12 +9,12 @@
   <h1> Emily Ho </h1>
 <main>
   <div class="sidebar">
-    <button class="active" onclick="openTab, 'About'">About</button>
-    <button onclick="openTab, 'Learn'">Learn</button>
-    <button onclick="openTab, 'Contact'">Contact</button>
+    <button class="tablink" onclick="openPage('About', this,'red')">About</button>
+    <button class="tablink" onclick="openPage('Learn', this, 'green')" id="defaultOpen">Learn</button>
+    <button class="tablink" onclick="openPage('Contact', this,'blue')">Contact</button>
   </div>
 
-  <div id="About" class="content">
+  <div id="About" class="tabcontent">
     <p> Emily is a songwriter and a classical pianist.
     A student at Berklee College of Music, she dual majors in Music Production and Engineering (MPE) and Music Business (MB). MPE because of her love of beautiful recordings, and MB for a look into the music industry, how business and law functions and serves in the music industry.
     Music, for her, is a way to escape, a time to look inward, figure some questions out and hopefully, learn some insights along the way.
@@ -24,7 +24,7 @@
     ←
     ← </p>
   </div>
-  <div id="Learn" class="content">
+  <div id="Learn" class="tabcontent">
     <h3> Here is where you find some cool projects!</h3>
     <h4> Some classical piano~ </h4>
     <iframe width="560" height="315"
@@ -45,7 +45,7 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HS_oSPED-SA"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
-  <div id="Contact" class="content">
+  <div id="Contact" class="tabcontent">
     <h3> Leave a message and your email to get in contact with me! </h3>
     <form action="action_page.php">
     <div id="container">
