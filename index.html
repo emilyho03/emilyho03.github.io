@@ -1,86 +1,158 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Emily Ho </title>
-  <meta charset="utf-8">
-  <link type="text/css" rel="stylesheet" href="styles.css"/>
+  <title>Wallpaper Planner-Home</title>
+  <link type= "text/css" rel="stylesheet" href="style.css"/>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+        crossorigin="anonymous">
+      </script>
+      <script src="html2canvas.min.js"></script>
+      <script src="canvas2image.js"></script>
+
+  <meta charset="utf-8"/>
+  <style>
+  .column {
+    float:left;
+  }
+  .left{
+    width: 33.3%;
+  }
+  .middle{
+    width:33.3%;
+  }
+  .right{
+    width: 33.3%;
+  }
+  .row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  </style>
 </head>
 <body>
-  <h1> Emily Ho </h1>
+  <h1
+  id = "date"
+  style= "text-align: center;">
+  </h1>
 <main>
-  <div class="sidebar">
-    <button class="tablink" onclick="openPage('About', this,'GoldenRod')" id="defaultOpen">About</button>
-    <button class="tablink" onclick="openPage('Learn', this, 'GoldenRod')">Learn</button>
-    <button class="tablink" onclick="openPage('Contact', this,'GoldenRod')">Contact</button>
-  </div>
+  <div class="row">
+    <div class="column left" style= "border-color: MistyRose; ">
+    <h3>To Do</h3>
+    <ol>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose;
+                  </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                   </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                  </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose</li>    </ol>
+                </div>
+    <div class="column middle" style= "border-color: MistyRose; ">
+    <h3>On-Going</h3>
+    <ul>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                   </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                  </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                  </li>
+      <li><input type = "text"
+                  id = "my text"
+                  value = " "
+                  border-color: MistyRose
+                  </li> </ul>
+      </div>
+    <div class="column right" style= "border-color: MistyRose;">
 
-  <div id="About" class="tabcontent">
-    <p> Emily is a songwriter and a classical pianist.
-    A student at Berklee College of Music, she dual majors in Music Production and Engineering (MPE) and Music Business (MB). MPE because of her love of beautiful recordings, and MB for a look into the music industry, how business and law functions and serves in the music industry.
-    Music, for her, is a way to escape, a time to look inward, figure some questions out and hopefully, learn some insights along the way.
-    Therefore, most of her songs🎤 are ballads. They are unreleased, but plans were drawn up and soon they will be on major platforms.
-    Head to "Learn" to see some recent and past projects !!
-    ↑↑↑↑↑ </p>
-  </div>
-  <div id="Learn" class="tabcontent">
-    <h3> Here is where you find some cool projects!</h3>
-    <h4> Some classical piano~ </h4>
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/PycwhuE7994"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <br></br>
-    <br></br>
-    <br></br>
-    <iframe width="560" height="315"
-    src="https://www.youtube.com/embed/j-YZh2e6wTg"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <br></br>
-    <br></br>
-    <br></br>
-    <h4> And a cool song I mixed for singer-songwriter Karena Chou!</h4>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HS_oSPED-SA"
-    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    <div id="Contact" class="tabcontent">
-    <div class="container">
-      <div class="row">
-      <div class="col-md-8">
-      <h1><img src="Inquiry.png" width="80px">Leave a message!</h1>
-      <form name="contact-form" action="" method="post" id="contact-form">
-      <div class="form-group">
-      <label for="Name">Name</label>
-      <input type="text" class="form-control" name="your_name" placeholder="Name" required>
-      </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-      <input type="email" class="form-control" name="your_email" placeholder="Email" required>
-      </div>
-      <div class="form-group">
-      <label for="Phone">Phone</label>
-      <input type="text" class="form-control" name="your_phone" placeholder="Phone" required>
-      </div>
-      <div class="form-group">
-      <label for="comments">Comments</label>
-      <textarea name="comments" class="form-control" rows="3" cols="28" rows="5" placeholder="Comments"></textarea>
-      </div>
-      <button type="submit" class="btn btn-primary" name="submit" value="Submit" id="submit_form">Submit</button>
-      <img src="img/loading.gif" id="loading-img">
-      </form>
-      <div class="response_msg"></div>
-      </div>
-      </div>
-      <div>
-        <label>Captcha</label>
-        <span id="captcha-info" class="info"></span><br/>
-        <input type="text" name="captcha" id="captcha" class="demoInputBox"><br>
-      </div>
-      <div>
-        <img id="captcha_code" src="captcha.php" />
-        <button name="submit" class="btnRefresh" onClick="refreshCaptcha();">Refresh Captcha</button>
       </div>
     </div>
-  </div>
-  <script src="script.js", "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js></script>
+    <div class= "row">
+      <div class="column left" style= "border-color: MistyRose; ">
+      <h3>By End of Today</h3>
+      <ol style= "border-color: MistyRose;">
+        <li><input type = "text"
+                    id = "my text"
+                    value = " "
+                    border-color: MistyRose
+                     </li>
+        <li><input type = "text"
+                    id = "my text"
+                    value = " "
+                    border-color: MistyRose
+                    </li>
+        <li><input type = "text"
+                    id = "my text"
+                    value = " "
+                    border-color: MistyRose
+                    </li>
+        <li><input type = "text"
+                    id = "my text"
+                    value = " "
+                    border-color: MistyRose
+                    </li> </ol>
+        </div>
+      <div class="column middle" style= "border-color: MistyRose;">
+        <textarea style= "background-color: MistyRose; border-color: MistyRose;"> Notes:
+        </textarea>
+      </div>
+      <div class="column right" style= "border-color: MistyRose;">
+      </div>
+    </div>
+    <p>
+      <em>Don't forget to take breaks and drink water!</em></p>
+
+   <div id="control-wrapper">
+     <button id="save-button" class="buttons">Save</button>
+   </div>
+
+    <script src="script.js"></script>
+    <h2 class="toCanvas">
+      To canvas
+    </h2>
+    <h2 class="toPic">
+      To image
+    </h2>
+    <label for="imgW">Image Width:</label>
+      <input type="number" value="" id="imgW" placeholder="Image Width" />
+      <label for="imgH">Image Height:</label>
+      <input type="number" value="" id="imgH" placeholder="Image Height" />
+      <label for="imgFileName">File Name:</label>
+      <input type="text" placeholder="File Name" id="imgFileName" />
+      <select id="sel">
+        <option value="png">png</option>
+        <option value="jpeg">jpeg</option>
+        <option value="bmp">bmp</option>
+      </select>
+      <button id="save">Save And Download</button>
+
+    <div class="example">
+        ...
+      </div>
+
 </body>
+
+</html>

@@ -1,66 +1,30 @@
-function openPage(pageName, elmnt, color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-
-  document.getElementById(pageName).style.display = "block";
-
-  elmnt.style.backgroundColor = color;
-}
-
-document.getElementById("defaultOpen").click();
-
-$(document).ready(function(){
-$("#contact-form").on("submit",function(e){
-e.preventDefault();
-if($("#contact-form [name='your_name']").val() === '')
-{
-$("#contact-form [name='your_name']").css("border","1px solid red");
-}
-else if ($("#contact-form [name='your_email']").val() === '')
-{
-$("#contact-form [name='your_email']").css("border","1px solid red");
-}
-else
-{
-$("#loading-img").css("display","block");
-var sendData = $( this ).serialize();
-$.ajax({
-type: "POST",
-url: "get_response.php",
-data: sendData,
-success: function(data){
-$("#loading-img").css("display","none");
-$(".response_msg").text(data);
-$(".response_msg").slideDown().fadeOut(3000);
-$("#contact-form").find("input[type=text], input[type=email], textarea").val("");
-}
-
+// to canvas
+$('.toCanvas').click(function(e) {
+  html2canvas(test).then(function(canvas) {
+    // canvas width
+    var canvasWidth = canvas.width;
+    // canvas height
+    var canvasHeight = canvas.height;
+    // render canvas
+    $('.toCanvas').after(canvas);
+    // show 'to image' button
+    $('.toPic').show(1000);
+    // convert canvas to image
+    $('.toPic').click(function(e) {
+      var img = Canvas2Image.convertToImage(canvas, canvasWidth, canvasHeight);
+      // render image
+      $(".toPic").after(img);
+      // save
+      $('#save').click(function(e) {
+        let type = $('#sel').val(); // image type
+        let w = $('#imgW').val(); // image width
+        let h = $('#imgH').val(); // image height
+        let f = $('#imgFileName').val(); // file name
+        w = (w === '') ? canvasWidth : w;
+        h = (h === '') ? canvasHeight : h;
+        // save as image
+        Canvas2Image.saveAsImage(canvas, w, h, type, f);
+      });
+    });
+  });
 });
-}
-});
-
-$("#contact-form input").blur(function(){
-var checkValue = $(this).val();
-if(checkValue != '')
-{
-$(this).css("border","1px solid #eeeeee");
-}
-});
-});
-
-if(!$("#captcha").val()) {
-$("#captcha-info").html("(required)");
-$("#captcha").css('background-color','#FFFFDF');
-valid = false;
-}
-function refreshCaptcha() {
-$("#captcha_code").attr('src','captcha.php');
-}
