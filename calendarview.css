@@ -1,11 +1,11 @@
 div.calendar
 {
-  color: #000;
+  color: "black";
   font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
   -moz-box-shadow:0px 0px 8px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow:0px 0px 8px rgba(0, 0, 0, 0.5);
   box-shadow:0px 0px 8px rgba(0, 0, 0, 0.5);
-  
+
 }
 
 div.calendar.popup
@@ -53,12 +53,12 @@ div.calendar th
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
   font-weight: bold;
-  color: #555;
+  color: "black";
 }
 
 div.calendar tr.days td {
   width: 2em;
-  color: #555;
+  color: "black";
   text-align: center;
   cursor: pointer;
 }
@@ -67,7 +67,7 @@ div.calendar tr.days td:hover:not(.unselectable),
 div.calendar td.button:hover:not(.unselectable)
 {
   background-color: #0178b8;
-  color: #fff;
+  color: "black";
   cursor: pointer;
 }
 
@@ -85,16 +85,16 @@ div.calendar tr.days td.selected
 {
   font-weight: bold;
   background-color: #fff;
-  color: #000;
+  color: "black";
 }
 
 div.calendar tr.days td.today
 {
   font-weight: bold;
-  color: #fff;
+  color: "black";
 }
 
 div.calendar tr.days td.otherDay
 {
-  color: #95959A;
+  color: "black";
 }
