@@ -42,6 +42,9 @@ h3{
 h4{
   color: black
 }
+input{
+  color: black
+}
 #Home {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
