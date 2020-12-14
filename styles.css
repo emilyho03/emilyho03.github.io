@@ -39,9 +39,9 @@ textarea {
   box-sizing: border-box;
 }
 .column {
-  float: left;
+  float: center;
   width: 50%;
-  padding: 5px;
+  padding: 10px;
 }
 
 .row::after {
@@ -49,6 +49,7 @@ textarea {
   clear: both;
   display: table;
 }
+
 .tablink {
   background-color: GoldenRod;
   color: Black;
