@@ -77,7 +77,7 @@ textarea {
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -107,7 +107,7 @@ input[type=submit]:hover {
 .iframe {
   align-content: center;
 }
-#Home {background-color: "GoldenRod";}
-#News {background-color: "GoldenRod";}
-#Contact {background-color:"GoldenRod";}
-#About {background-color: "GoldenRod";}
+#Home {background-color: "Black";}
+#News {background-color: "Black";}
+#Contact {background-color:"Black";}
+#About {background-color: "Black";}
