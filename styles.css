@@ -2,23 +2,15 @@ main, html {
   height: 100%;
   margin: 0;
   font-family: Garamond, Times;
-<<<<<<< HEAD
   background color: black;
-=======
-  background color: Black;
->>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
 }
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Garamond, Times;}
   * {box-sizing: border-box;}
 h1 {
   font-size: 60px;
   color: GoldenRod;
   text-align: center;
-<<<<<<< HEAD
   background-color: black;
-=======
-  background-color: Black;
->>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
   padding-top: 20px;
   padding-bottom: 20px;
   height: 100%;
@@ -27,7 +19,6 @@ h5 {
   text-shadow: black;
   font-size: 20px;
   color: GoldenRod;
-  border: thin, wavy;
 }
 h3 {
   font-size: 30px;
@@ -38,11 +29,7 @@ label {
 }
 input {
   color: black;
-<<<<<<< HEAD
   background-color: black
-=======
-  background-color: Black
->>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
 }
 textarea {
   color: black
@@ -64,7 +51,7 @@ textarea {
 
 .tablink {
   background-color: black;
-  color: GoldenRod;
+  color: black;
   float: left;
   border-collapse: separate;
   border-spacing:2px;
@@ -82,11 +69,7 @@ textarea {
 }
 
 .tabcontent {
-<<<<<<< HEAD
   background-color: black;
-=======
-  background-color: Black;
->>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
   display: none;
   padding: 100px;
   height: 100%;
