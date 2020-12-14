@@ -9,6 +9,23 @@ h1 {
   font-size: 40px
   color: GoldenRod
 }
+p {
+  font-size: 30px
+  color: GoldenRod
+}
+h3 {
+  font-size: 30px
+  color: GoldenRod
+}
+label {
+  color: Black
+}
+input {
+  color: black
+}
+textarea {
+  color: black
+}
 
 .tablink {
   background-color: GoldenRod;
