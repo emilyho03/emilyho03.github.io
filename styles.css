@@ -2,20 +2,20 @@ main, html {
   height: 100%;
   margin: 0;
   font-family: Garamond, Times;
-  background color: MistyRose
-  color: MistyRose
+  background color: MistyRose;
+  color: MistyRose;
 }
 h1 {
-  font-size: 40px
-  color: GoldenRod
+  font-size: 40px;
+  color: GoldenRod;
   text-align: center
 }
 p {
-  font-size: 30px
+  font-size: 30px;
   color: GoldenRod
 }
 h3 {
-  font-size: 30px
+  font-size: 30px;
   color: GoldenRod
 }
 label {
@@ -73,13 +73,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: black;
+  background-color: MistyRose;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: black;
+  background-color: MistyRose;
   padding: 20px;
 }
 
