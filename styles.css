@@ -38,7 +38,10 @@ textarea {
   background-color: GoldenRod;
   color: Black;
   float: left;
-  border: none;
+  border-collapse: separate;
+  border-spacing:2px;
+  border-style: solid;
+  border-width:thin;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
