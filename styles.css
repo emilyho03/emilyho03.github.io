@@ -8,6 +8,7 @@ main, html {
 h1 {
   font-size: 40px
   color: GoldenRod
+  text-align: center
 }
 p {
   font-size: 30px
