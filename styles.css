@@ -87,10 +87,8 @@ input[type=submit]:hover {
   color: MistyRose;
   padding: 20px;
 }
-.form {
-  size: 50%;
+.iframe {
   align: center;
-  border:
 }
 #Home {background-color: "GoldenRod";}
 #News {background-color: "GoldenRod";}
