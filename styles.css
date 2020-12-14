@@ -2,7 +2,7 @@ main, html {
   height: 100%;
   margin: 0;
   font-family: Garamond, Times;
-  background color: MistyRose;
+  background color: Black;
 }
 body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
@@ -10,7 +10,7 @@ h1 {
   font-size: 60px;
   color: GoldenRod;
   text-align: center;
-  background-color: MistyRose;
+  background-color: Black;
   padding-top: 20px;
   padding-bottom: 20px;
   height: 100%;
@@ -30,7 +30,7 @@ label {
 }
 input {
   color: black;
-  background-color: MistyRose
+  background-color: Black
 }
 textarea {
   color: black
@@ -70,7 +70,7 @@ textarea {
 }
 
 .tabcontent {
-  background-color: MistyRose;
+  background-color: Black;
   display: none;
   padding: 100px;
   height: 100%;
