@@ -6,13 +6,13 @@ main, html {
   color: MistyRose;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   color: GoldenRod;
   text-align: center
 }
 p {
-  font-size: 30px;
-  color: GoldenRod
+  font-size: 40px;
+  color: GoldenRod;
 }
 h3 {
   font-size: 30px;
