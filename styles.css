@@ -3,6 +3,7 @@ main, html {
   margin: 0;
   font-family: Garamond, Times;
   background color: white;
+  color: GoldenRod
 }
 body {font-family: Garamond, Times;}
   * {box-sizing: border-box;}
@@ -16,7 +17,7 @@ h1 {
   height: 100%;
 }
 h5 {
-  text-shadow: white;
+  text-shadow: GoldenRod;
   font-size: 20px;
   color: GoldenRod;
 }
@@ -66,10 +67,12 @@ textarea {
 
 .tablink:hover {
   background-color: white;
+  color: GoldenRod
 }
 
 .tabcontent {
   background-color: white;
+  color: GoldenRod;
   display: none;
   padding: 100px;
   height: 100%;
@@ -78,6 +81,7 @@ input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid GoldenRod;
+  color: GoldenRod;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -96,6 +100,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: white;
+  color: GoldenRod;
 }
 
 .container {
