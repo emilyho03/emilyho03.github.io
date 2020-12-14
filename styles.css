@@ -91,7 +91,7 @@ input[type=submit]:hover {
 }
 
 .iframe {
-  align: center;
+  align-content: center;
 }
 #Home {background-color: "GoldenRod";}
 #News {background-color: "GoldenRod";}
