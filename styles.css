@@ -2,7 +2,11 @@ main, html {
   height: 100%;
   margin: 0;
   font-family: Garamond, Times;
+<<<<<<< HEAD
   background color: black;
+=======
+  background color: Black;
+>>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
 }
 body {font-family: Arial, Helvetica, sans-serif;}
   * {box-sizing: border-box;}
@@ -10,7 +14,11 @@ h1 {
   font-size: 60px;
   color: GoldenRod;
   text-align: center;
+<<<<<<< HEAD
   background-color: black;
+=======
+  background-color: Black;
+>>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
   padding-top: 20px;
   padding-bottom: 20px;
   height: 100%;
@@ -30,7 +38,11 @@ label {
 }
 input {
   color: black;
+<<<<<<< HEAD
   background-color: black
+=======
+  background-color: Black
+>>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
 }
 textarea {
   color: black
@@ -70,7 +82,11 @@ textarea {
 }
 
 .tabcontent {
+<<<<<<< HEAD
   background-color: black;
+=======
+  background-color: Black;
+>>>>>>> 44b135744d9e91c78e1bd9cb4eeea37a4e1e5f71
   display: none;
   padding: 100px;
   height: 100%;
