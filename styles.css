@@ -34,7 +34,17 @@ input {
 textarea {
   color: black
 }
+.column {
+  float: left;
+}
 
+.left {
+  width:25%;
+}
+
+.right {
+  width: 75%;
+}
 .tablink {
   background-color: GoldenRod;
   color: Black;
