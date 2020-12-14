@@ -2,17 +2,17 @@ body, html {
   height: 100%;
   margin: 0;
   font-family: Garamond, Times;
-  background color: "MistyRose"
-  color: "GoldenRod"
+  background color: MistyRose
+  color: GoldenRod
 }
 h1 {
   font-size: 40px
-  color: "GoldenRod"
+  color: GoldenRod
 }
 
 .tablink {
-  background-color: "GoldenRod";
-  color: "Black";
+  background-color: GoldenRod;
+  color: Black;
   float: left;
   border: none;
   outline: none;
@@ -23,11 +23,11 @@ h1 {
 }
 
 .tablink:hover {
-  background-color: "GoldenRod";
+  background-color: GoldenRod;
 }
 
 .tabcontent {
-  color: "Black";
+  color: black;
   display: none;
   padding: 100px 20px;
   height: 100%;
@@ -45,7 +45,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: "MistyRose";
+  background-color: MistyRose;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -55,13 +55,13 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: "black";
+  background-color: black;
 }
 
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: "black";
+  background-color: black;
   padding: 20px;
 }
 
