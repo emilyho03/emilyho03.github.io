@@ -12,7 +12,7 @@
   <h1 style="background color: MistyRose; color: GoldenRod; text-align: center"> Emily Ho </h1>
 <main style="background color: MistyRose">
   <div class="sidebar">
-    <button class="tablink" onclick="openPage('About', this,'GoldenRod')" id="defaultOpen" width=100%>About</button>
+    <button class="tablink" onclick="openPage('About', this,'GoldenRod')" id="defaultOpen">About</button>
     <button class="tablink" onclick="openPage('Learn', this, 'GoldenRod')" width=100%>Learn</button>
     <button class="tablink" onclick="openPage('Contact', this,'GoldenRod')" width=100%>Contact</button>
   </div>
@@ -46,30 +46,30 @@
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HS_oSPED-SA"
     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
-    <div id="Contact" class="tabcontent" width=100%>
-      <div class="container">
-        <form action="action_page.php">
+  <div id="Contact" class="tabcontent">
+    <div class="container">
+      <form action="action_page.php">
 
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-          <input type="submit" value="Submit">
+        <input type="submit" value="Submit">
 
-        </form>
-      </div>
-      <script src="script.js"></script>
-
-          </body>
+      </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</main>
+</html>
