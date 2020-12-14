@@ -39,7 +39,7 @@ textarea {
   box-sizing: border-box;
 }
 .column {
-  float: center;
+  float: left;
   width: 50%;
   padding: 10px;
 }
