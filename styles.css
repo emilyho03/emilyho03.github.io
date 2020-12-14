@@ -3,13 +3,12 @@ main, html {
   margin: 0;
   font-family: Garamond, Times;
   background color: MistyRose;
-  color: MistyRose;
 }
 h1 {
   font-size: 60px;
   color: GoldenRod;
   text-align: center;
-  background-color: MistyRose 100px;
+  background-color: MistyRose;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -25,7 +24,8 @@ label {
   color: Black
 }
 input {
-  color: black
+  color: black;
+  background-color: MistyRose
 }
 textarea {
   color: black
