@@ -25,14 +25,14 @@ h3 {
   color: GoldenRod
 }
 label {
-  color: white
+  color: GoldenRod
 }
 input {
-  color: white;
+  color: GoldenRod;
   background-color: white
 }
 textarea {
-  color: white
+  color: GoldenRod
 }
 * {
   box-sizing: border-box;
